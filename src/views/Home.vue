@@ -90,6 +90,8 @@
       </div>
     </details>
 
+    <AlphaIntro class="mt-6" />
+
     <div
       v-if="showBuyModal"
       class="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-50 p-4"
@@ -155,6 +157,7 @@ import { MinerMode } from '../types'
 import MinerCarousel from '../components/MinerCarousel.vue'
 import FormattedNumber from '../components/FormattedNumber.vue'
 import BindReferrerModal from '../components/BindReferrerModal.vue'
+import AlphaIntro from '../components/AlphaIntro.vue'
 import { useMiner } from '../composables/useMiner'
 import { useWallet } from '../composables/useWallet'
 import { useMinerPurchase } from '../composables/useMinerPurchase'
