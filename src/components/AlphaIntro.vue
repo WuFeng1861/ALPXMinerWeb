@@ -91,7 +91,7 @@
           </h3>
           <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
             <a
-              href="https://network.alpha.ac.cn"
+              href="https://network.alpha.sc.cn"
               target="_blank"
               rel="noopener noreferrer"
               class="link-card bg-[#2a2a2a] rounded-lg p-3 text-center hover:bg-[#333] transition-colors border border-[#00a3ff]/30 hover:border-cyan-500/50"
@@ -109,7 +109,7 @@
             </a>
 
             <a
-              href="https://chain.alpha.ac.cn/"
+              href="https://chain.alpha.sc.cn/"
               target="_blank"
               rel="noopener noreferrer"
               class="link-card bg-[#2a2a2a] rounded-lg p-3 text-center hover:bg-[#333] transition-colors border border-[#00a3ff]/30 hover:border-green-500/50"

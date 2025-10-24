@@ -1,9 +1,9 @@
 // 代币合约地址配置
 export const CONTRACT_ADDRESSES = {
-  ALPX: '0xbc89cbe2bbf85a204fe6cf1b500b60964ec54f1b',
+  ALPX: '0xCE5242BDeb488584a05aF5Aba6d7acC32fb57992',
   ALPS: '0x258948986c19ea2915E48a5D7a475dfE2B86E893',
   USDT: '0x55d398326f99059fF775485246999027B3197955',
-  ALPXMiner: '0x48f7139Cabd525A1A9E4ba0E8ae6663e7b9542EF',
+  ALPXMiner: '0xdd2Ce724B3Cf04f3f178BB755ede74412Fe71f89',
 } as const
 
 // ERC20 标准 ABI（用于查询余额和授权）
@@ -912,5 +912,6 @@ export const TOKEN_INFO = {
     name: 'Tether USD',
   },
 } as const
+
 
 export type TokenSymbol = keyof typeof TOKEN_INFO
